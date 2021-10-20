@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Input from './Components/Input';
 
 const Container = styled.div`
     height: 100vh;
@@ -20,6 +21,7 @@ function App() {
     <>
 	    <Container>
             <h1>Previsão do tempo</h1>
+            <Input />
         </Container>
     </>
   );
