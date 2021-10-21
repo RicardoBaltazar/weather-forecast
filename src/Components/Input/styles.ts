@@ -8,4 +8,5 @@ export const InputText = styled.input`
     color: #696969;
     font-weight: bold;
     border: none;
+    margin: 1rem 0;
 `
