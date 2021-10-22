@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Container } from './styles'
 import axios from 'axios'
 import api from '../../service/api';
+import City from '../City';
 
 type Props = {
     data?: object
@@ -44,11 +45,21 @@ const Capitals = (props: Props) => {
                             <span>Min</span>
                             <span>Máx</span>
                         </p>
-                        <p>
-                            <span>18°</span>
-                            <span>18°</span>
-                            Rio de Janeiro
-                        </p>
+                        <City 
+                            name="Rio de Janeiro"
+                        />
+                        <City 
+                            name="São Paulo"
+                        />
+                        <City 
+                            name="Porto Alegre"
+                        />
+                        <City 
+                            name="Brasília"
+                        />
+                        <City 
+                            name="Belém"
+                        />
 
                     </div>
                     <div>
@@ -56,11 +67,21 @@ const Capitals = (props: Props) => {
                             <span>Min</span>
                             <span>Máx</span>
                         </p>
-                        <p>
-                            <span>18°</span>
-                            <span>18°</span>
-                            Rio de Janeiro
-                        </p>
+                        <City 
+                            name="London"
+                        />
+                        <City 
+                            name="Paris"
+                        />
+                        <City 
+                            name="Tokyo"
+                        />
+                        <City 
+                            name="New York"
+                        />
+                        <City 
+                            name="vancouver"
+                        />
                     </div>
                 </div>
             </Container>

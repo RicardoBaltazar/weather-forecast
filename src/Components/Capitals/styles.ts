@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    width: 400px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -25,6 +25,8 @@ export const Container = styled.div`
             justify-content: space-between;
             p {
                 font-weight: bold;
+                margin-bottom: 1rem;
+                font-size: 0.8rem;
                 span {
                     margin: 0 0.4rem;
                 }
