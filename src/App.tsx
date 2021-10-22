@@ -13,7 +13,7 @@ const Container = styled.div`
     justify-content: center;
     h1 {
       color: #ffffff;
-      font-size: 2.3rem;
+      font-size: 3rem;
       margin: 1rem 0;
     }
 `
