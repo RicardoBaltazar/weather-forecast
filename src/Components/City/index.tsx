@@ -29,8 +29,8 @@ const City = (props:Props) => {
     return (
         <>
             <p>
-                <span>{tempMax.toFixed()}°</span>
                 <span>{tempMin.toFixed()}°</span>
+                <span>{tempMax.toFixed()}°</span>
                 {citiName}
             </p>
         </>
