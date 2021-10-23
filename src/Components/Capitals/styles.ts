@@ -6,6 +6,9 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: baseline;
     margin: 1rem 0;
+    @media(max-width: 500px) {
+            width: 90vw;
+        }
     hr {
         border: 1px solid #ffffff;
         width: 100%;
@@ -20,6 +23,9 @@ export const Container = styled.div`
         justify-content: space-between;
         width: 90%;
         margin: 0 auto;
+        @media(max-width: 500px) {
+            width: 100%;
+        }
         div {
             display: flex;
             flex-direction: column;
@@ -28,6 +34,9 @@ export const Container = styled.div`
                 font-weight: bold;
                 margin-bottom: 1rem;
                 font-size: 0.8rem;
+                @media(max-width: 500px) {
+                    font-size: 0.7rem;
+                }
                 span {
                     margin: 0 0.4rem;
                 }

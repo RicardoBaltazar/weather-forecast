@@ -9,6 +9,9 @@ export const InputText = styled.input`
     font-weight: bold;
     border: none;
     margin: 1rem 0;
+    @media(max-width: 500px) {
+        width: 80vw;
+    }
     `
 
 export const Button = styled.button`
